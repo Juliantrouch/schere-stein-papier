@@ -2,7 +2,7 @@
 
 Ein Browser-Spiel gegen den Computer. Das Grundgerüst stammt aus dem JavaScript-Kurs von **SuperSimpleDev**, mehrere Funktionen habe ich selbst ergänzt.
 
-**Live spielen:** https://julian-trou.github.io/schere-stein-papier/
+**Live spielen:** https://juliantrouch.github.io/schere-stein-papier/
 
 ## Aus dem Kurs
 
