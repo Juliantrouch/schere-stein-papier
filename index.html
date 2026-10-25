@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schere Stein Papier</title>
+  <link rel="stylesheet" href="schere-stein-papier.css">
+</head>
+<body>
+  <div class="game">
+    <p class="title">Rock Paper Scissors</p>
+ 
+    <button class="move-button" onclick="playGame('rock');">
+      <img src="rock-emoji.png" class="move-icon">
+    </button>
+ 
+    <button class="move-button" onclick="playGame('paper');">
+      <img src="paper-emoji.png" class="move-icon">
+    </button>
+ 
+    <button class="move-button" onclick="playGame('scissors');">
+      <img src="scissors-emoji.png" class="move-icon">
+    </button>
+ 
+    <p class="js-result result"></p>
+    <p class="js-moves"></p>
+    <p class="js-score score"></p>
+ 
+    <button class="reset-score-button" onclick="resetScore();">Reset Score</button>
+    <button class="auto-play-button" onclick="autoPlay();">Auto Play</button>
+  </div>
+ 
+  <div class="leaderboard">
+    <p class="title">Leaderboard</p>
+    <input class="js-name-input name-input" placeholder="Dein Name">
+    <button class="name-button" onclick="changeName();">Spielen als</button>
+    <div class="js-leaderboard"></div>
+  </div>
+ 
+  <script src="schere-stein-papier.js"></script>
+</body>
+</html>
